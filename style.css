@@ -1,0 +1,103 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; /* Vermelho puro */
+    background-image: linear-gradient(to bottom right, #ff0000, #f1c40f), url('https://i.imgur.com/ODjGi5m.png'); /* Fundo com cores do Luffy */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000; /* Cor da fonte alterada para preto */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #f1c40f;
+    margin-top: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #f1c40f;
+}
+
+.planos button {
+    background-color: #f1c40f;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.planos button:hover {
+    background-color: #d4ac0d;
+}
+
+/* Flex container para reposicionar as seções lado a lado */
+main {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que as seções ocupem várias linhas, se necessário */
+    justify-content: center; /* Centraliza as seções no espaço disponível */
+}
+
+/* Estilos para as seções */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f1c40f;
+    border-radius: 10px;
+    flex-basis: 30%;  /* Cada seção ocupará aproximadamente 30% da largura */
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #f1c40f;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os itens de cada seção */
+.item {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.item img {
+    width: 150px;  /* Tamanho ajustado para caber na tela */
+    height: 220px; /* Proporção mantida */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;  /* Cor do texto alterada para preto */
+}
+
+/* Estilos para a sinopse */
+.sinopse {
+    font-size: 16px;  /* Aumentado o tamanho da fonte da sinopse */
+    font-weight: bold; /* Negrito */
+    color: #000000;  /* Cor da sinopse alterada para preto */
+    margin-top: 5px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #000;
+    color: #f1c40f;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
